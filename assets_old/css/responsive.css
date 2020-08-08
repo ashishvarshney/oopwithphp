@@ -1,0 +1,221 @@
+@media (max-width: 768px) {
+  body #relatedProductsList .item img, body #featuredProductsList .item img, body #latestProductsList img {
+    width: 100%;
+    /* width of container */
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body #relatedProductsList .item img {
+    width: 100%;
+    /* width of container */
+    height: 100%;
+    /* height of container */
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body .navbar-expand-md .navbar-nav .dropdown-menu.header-drop {
+    position: absolute;
+    left: 0px;
+    right: 0;
+  }
+  body .inner-fixed {
+    position: static;
+    margin-bottom: 20px;
+  }
+  body #login-form {
+    background-image: url("../img/backgrounds/login-form.jpg");
+    height: calc(100vh - 70px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-size: cover;
+  }
+  body #login-form .login-box {
+    width: 100% !important;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  body #login-form .login-box #login_seller {
+    width: 100%;
+  }
+  body #login-form .login-box #login_buyer {
+    width: 100%;
+  }
+  body nav.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+  }
+  body #navigation-menu + section {
+    margin-top: 50px;
+  }
+  body .box-menu {
+    border-radius: 0px;
+    margin-left: 10px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  body .owl-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    margin-left: 0px;
+  }
+  body .all-sector .box-sector-right .box-sector-right-top {
+    height: 50px;
+  }
+  body .all-sector .box-sector-right .box-sector-right-bottom {
+    height: 50px;
+  }
+  body .all-sector .box-sector-image {
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    padding: 0 10px;
+  }
+  body .categories {
+    display: none;
+  }
+  body #banner img {
+    height: 50vh;
+  }
+  body .quantity .input-group {
+    width: 50%;
+  }
+  body #relatedProductsList .item img {
+    width: 100%;
+    /* width of container */
+    height: 100%;
+    /* height of container */
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  body #register-form {
+    background-image: url("../img/backgrounds/login-form.jpg");
+    height: calc(100vh - 70px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-size: cover;
+  }
+  body #register-form .register-box {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    /* Style the tab */
+    /* Style the buttons inside the tab */
+    /* Change background color of buttons on hover */
+    /* Create an active/current tablink class */
+    /* Style the tab content */
+  }
+  body #register-form .register-box .form-control {
+    border-radius: 0;
+    margin-bottom: 10px;
+  }
+  body #register-form .register-box .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  body #register-form .register-box .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 50%;
+  }
+  body #register-form .register-box .tab button:hover {
+    background-color: #ddd;
+  }
+  body #register-form .register-box .tab button.active {
+    background-color: #ccc;
+  }
+  body #register-form .register-box .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  body #register-form #login-form .login-box {
+    width: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  #banner img {
+    height: 50vh;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer .col {
+    width: 50%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
